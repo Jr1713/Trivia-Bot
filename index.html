@@ -1,0 +1,42 @@
+<div class="card">
+  <header class="card__header">
+    <h1>Trivia Bot — Coding Fun Facts</h1>
+    <p class="subtitle">An interactive version of your JavaScript Trivia Bot. Edit values then press <strong>Run Trivia Bot</strong>.</p>
+  </header>
+
+  <section class="controls">
+    <label>
+      Bot name
+      <input id="botName" type="text" value="TriviaBot" />
+    </label>
+
+    <label>
+      Bot location
+      <input id="botLocation" type="text" value="the Internet" />
+    </label>
+
+    <label>
+      Favorite language
+      <input id="favoriteLanguage" type="text" value="JavaScript" />
+    </label>
+
+    <div class="buttons">
+      <button id="runBtn">Run Trivia Bot</button>
+      <button id="clearBtn" class="secondary">Clear</button>
+    </div>
+  </section>
+
+  <section class="console-wrap">
+    <div class="console-toolbar">
+      <span class="dot red"></span>
+      <span class="dot yellow"></span>
+      <span class="dot green"></span>
+      <span class="console-title">Output</span>
+    </div>
+    <pre id="output" class="console" aria-live="polite"></pre>
+  </section>
+
+  <footer class="card__footer">
+    <small>Also logs to the browser console (F12 / DevTools).</small>
+  </footer>
+</div>
